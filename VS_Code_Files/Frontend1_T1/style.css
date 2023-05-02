@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    position: absolute;
+    width: 1350px;
+    height: 87px;
+    left: 0px;
+    top: 0px;    
+    background: #000000;
+}
+
+nav a {
+    position: absolute;
+    width: 150px;
+    left: 38px;
+    top: 20px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+h1 {
+    position: absolute;
+    width: 600px;
+    height: 144px;
+    left: 38px;
+    top: 90px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+p {
+    position: absolute;
+    width: 1300px;
+    height: 546px;
+    left: 38px;
+    top: 225px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+a {
+    position: absolute;
+    width: 161px;
+    height: 56px;
+    left: 38px;
+    top: 410px;
+    background: #000000;
+}
+
+button {
+    position: absolute;
+    width: 161px;
+    height: 56px;
+    left: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+h2 {
+    position: absolute;
+    width: 600px;
+    height: 144px;
+    left: 38px;
+    top: 490px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #000000;
+}
+
+img {
+    position: absolute;
+    width: 434px;
+    height: 516px;
+    left: 38px;
+    top: 674px;
+    background: #D9D9D9;
+}
+
+h3 {
+    position: absolute;
+    width: 600px;
+    height: 144px;
+    left: 38px;
+    top: 1200px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #000000;
+}
+
+ol {
+    position: absolute;
+    width: 1624px;
+    height: 174px;
+    left: 38px;
+    top: 1342px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+}
+
+
+h4 {
+    position: absolute;
+    width: 600px;
+    height: 144px;
+    left: 38px;
+    top: 1397px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #000000;
+}
+
+ul {
+    position: absolute;
+    width: 1624px;
+    height: 174px;
+    left: 38px;
+    top: 1560px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}

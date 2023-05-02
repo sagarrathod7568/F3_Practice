@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table, th, td{
+    margin: 0;
+    padding: 10px 100px;
+    height: 50px;
+    width: 100px;
+    border: 2px solid;
+    border-collapse: collapse;
+}
+.swing{
+    
+    margin: 50px;
+    height: 50px;
+    width: 50px;
+    border: 5px solid rgb(218, 199, 165);
+    border-top-color:  royalblue;
+    border-radius: 50px;
+    
+    animation-name: sagar;
+    animation: sagar s infinite;
+}
+@keyframes sagar{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

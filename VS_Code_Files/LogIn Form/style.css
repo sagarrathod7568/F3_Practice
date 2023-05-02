@@ -1,0 +1,14 @@
+h1{
+    height:30px;
+}
+.main{
+    position: relative;
+    display: inline;
+}
+.add{
+    top: 65px;
+    left: 300px;
+    position: absolute;
+    display: inline;
+
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+h2{
+    color: blue;
+}
+
+
+.taj,.great,.petra,.christ,.machu{
+    margin: 30px;
+    display: inline-flex;
+}
+.tajpara,.greatpara,.petrapara,.christpara,.machupara{
+    margin: 30px;
+
+}
+.taj,.petra,.machu{
+    padding: 30px;
+    background-color: #dcd7d7;
+
+}

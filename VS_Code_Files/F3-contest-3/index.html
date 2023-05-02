@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>SignUp Page</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="headerDiv">
+            <div>Header</div>
+            <div class="signUpProfilediv">
+                <div class="btns">Signup</div>
+                <div class="btnp">Profile</div>
+            </div>
+        </div>
+        <div>
+            <section class="singup-container">
+                <h1 class="h-primary">Signup</h1>
+                <form id="signup-form" method="post">
+                  <input type="text" id="userName" placeholder="Full Name" required />
+                  <input type="email" id="email" placeholder="Email" required />
+                  <input type="password" id="pass" placeholder="Password" required />
+                  <input
+                    type="password"
+                    id="cnfPass"
+                    placeholder="Confirm Password"
+                    required
+                  />
+                  <p class="error">Error: All fields are mandatory</p>
+                  <p class="success">Successfully Signed Up!</p>
+                  <button type="submit" id="submit">Signup</button>
+                </form>
+              </section>
+              
+        </div>
+    </div>
+</body>
+<script defer src="index.js"></script>
+<script defer src="profile.js"></script>
+</html>

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Inter';
+}
+
+.containar {
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+h3 {
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+input {
+    margin-top: 5px;
+    border: 1px solid #FFFFFF;
+    width: 320px;
+    height: 25px;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+label {
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#add-btn {
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    padding: 5px 30px;
+    color: #000000;
+    border: none;
+    width: 180px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+#success-message {
+    margin-top: 40px;
+
+}
+
+#error-message {
+    color: #FF4343;
+}
+
+#employee-list {
+    /* color: #eae4e4; */
+    /* margin-left: 10px; */
+    color: rgba(255, 255, 255, 0.5);
+}

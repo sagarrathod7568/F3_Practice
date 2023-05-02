@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin</title>
+    <style>
+        .spinMe{
+            animation-name: spin;
+            width: 100px;
+            height: 100px;
+            border: 10px solid rgb(240, 234, 234);
+            border-top-color:  blue;
+            border-radius: 60px;
+            animation: spin 1s infinite;
+        }
+        @keyframes spin{
+            0%{
+                transform: rotate(0);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="spinMe">
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    width: 300px;
+    display: inline-block;
+    background: #000;
+    }
+.f1{
+    display: inline;
+    background: red;
+    }
+/* span{
+    margin: 30px;
+    display: inline;
+} */

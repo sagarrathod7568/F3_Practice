@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+
+th{
+    background: #1ae82f;
+    color: white;
+}
+.table{
+    margin: 10px 50px 50px 50px;
+    box-sizing: border-box;
+}
+
+table{
+    border: 2px solid black;
+}
+
+.head{
+    background: #000;
+}
+tr td {
+
+    background: #67616144;
+}
+tr:hover{
+
+    background: #000;
+    color: white;
+}
+
